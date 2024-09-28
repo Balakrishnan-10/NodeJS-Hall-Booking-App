@@ -2,33 +2,25 @@
 
 ## Backend Deployment: Render.com
 
-### Base URL :  http://localhost:4000/
+### Base local URL :  http://localhost:4000/
 
-### API Doucmentation Link :
+### Base render URL :https://nodejs-hall-booking-app.onrender.com/
+
+### API Doucmentation Link : https://documenter.getpostman.com/view/34153837/2sAXqzVxj3
 
 ### Endpoints are created this criteria:
  
-1. GET method , Get all rooms detail API :
+1. GET method , Get all rooms detail API : https://nodejs-hall-booking-app.onrender.com/api/roomdetails
 
+2. POST method , Create a room function : https://nodejs-hall-booking-app.onrender.com/api/createroom
 
+3. POST method , Booking a room : https://nodejs-hall-booking-app.onrender.com/api/createbooking
 
-2. POST method , Create a room function :
+4. GET method , List all rooms with booked data : https://nodejs-hall-booking-app.onrender.com/api/bookedroom
 
+5. GET method , List all customer with booked data : https://nodejs-hall-booking-app.onrender.com/api/allcustomerdata
 
-
-3. POST method , Booking a room :
-
-
-
-4. GET method , List all rooms with booked data :
-
-
-
-5. GET method , List all customer with booked data :
-
-
-
-6. GET method , No.of times booking a room :
+6. GET method , No.of times booking a room : https://nodejs-hall-booking-app.onrender.com/api/countcustomer
 
 ## Installing Packages:
 * npm i express
